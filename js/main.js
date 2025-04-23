@@ -66,7 +66,7 @@ window.addEventListener("load", function () {
 
   setTimeout(() => {
     frame07.classList.add("slide-in");
-  }, 4000);
+  }, 3500);
 
   setTimeout(() => {
     frame08.classList.add("slide-up");
@@ -79,7 +79,7 @@ window.addEventListener("load", function () {
 
   setTimeout(() => {
     frame10.style.transform = "translateX(179px)";
-    frame10.style.transition = "transform 1s ease";
+    frame10.style.transition = "transform 0.5s ease";
   }, 5500);
 
   const sentence = "summer’s biggest events​​";
