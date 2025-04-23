@@ -152,7 +152,7 @@ a {
 }
 
 .frame07.slide-in {
-  animation: slide 1s ease-out forwards;
+  animation: slide 0.7s ease-out forwards;
 }
 
 @keyframes slide {
@@ -204,7 +204,7 @@ a {
   flex-wrap: wrap;
   position: absolute;
   left: 20px;
-  top: 42px;
+  top: 45px;
 }
 .word {
   opacity: 0;
@@ -215,10 +215,10 @@ a {
   font-family: system-ui;
 }
 .word.odd {
-  color: #ccc;
+  color: #fff;
 }
 .word.even {
-  color: #ccc;
+  color: #fff;
 }
 .show {
   opacity: 1;
