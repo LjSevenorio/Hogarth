@@ -70,7 +70,7 @@ window.addEventListener("load", function () {
 
   setTimeout(() => {
     frame08.classList.add("slide-up");
-  }, 4500);
+  }, 4300);
 
   setTimeout(() => {
     frame09.style.opacity = 1;
