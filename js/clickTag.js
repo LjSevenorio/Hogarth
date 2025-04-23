@@ -1,0 +1,1 @@
+window.clickTag = "https://dummy.com";
