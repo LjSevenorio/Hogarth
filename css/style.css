@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+.wrap {
+  width: 100%;
+}
+
+a {
+  width: 300px;
+  height: 250px;
+  display: block;
+}
+
+.bannerArea {
+  width: 300px;
+  height: 250px;
+  border: 1px solid #ccc;
+  position: relative;
+  overflow: hidden;
+}
+
+.background00 {
+  position: absolute;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+.frame01 {
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.frame02 {
+  position: absolute;
+  left: 99px;
+  top: 20px;
+  transition: transform 1s ease;
+}
+.animate-img {
+  width: 0;
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  transform-origin: center center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.animate-img.loaded {
+  width: 106px;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.wiggle {
+  animation: wiggle 0.6s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(-10deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.frame04 {
+  opacity: 0;
+}
+
+.symbol01 {
+  position: absolute;
+  left: 171px;
+  top: 31px;
+}
+.symbol02 {
+  position: absolute;
+  left: 8px;
+  top: 5px;
+}
+.symbol03 {
+  position: absolute;
+  left: 101px;
+  top: 145px;
+}
+
+.symbol01.bounce,
+.symbol02.bounce,
+.symbol03.bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.frame05 {
+  opacity: 0;
+  position: absolute;
+  right: -94px;
+  top: 53px;
+}
+
+.frame06 {
+  opacity: 0;
+  position: absolute;
+  right: -94px;
+  top: 146px;
+}
+
+.frame07 {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  top: 0;
+  left: 100%;
+  background: #d00013;
+}
+
+.frame07.slide-in {
+  animation: slide 1.5s ease-out forwards;
+}
+
+@keyframes slide {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.frame08 {
+  position: absolute;
+  top: 100%;
+  right: 38px;
+}
+
+.slide-up {
+  animation: slideUp 1s ease-out forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 59%;
+  }
+}
+
+.frame09 {
+  position: absolute;
+  top: 4px;
+  right: 9px;
+  opacity: 0;
+}
+
+.frame10 {
+  position: absolute;
+  top: 29px;
+  right: 100%;
+  opacity: 1;
+}
+
+.frame11 {
+  font-size: 12rem;
+  display: flex;
+  gap: 0.2rem;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 24px;
+  top: 42px;
+}
+.word {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: system-ui;
+}
+.word.odd {
+  color: #ccc;
+}
+.word.even {
+  color: #ccc;
+}
+.show {
+  opacity: 1;
+}
+
+.frame12 {
+  position: absolute;
+  top: 103px;
+  right: 100%;
+  opacity: 1;
+}
+
+.frame13 {
+  position: absolute;
+  top: 199px;
+  left: 23px;
+  opacity: 0;
+}
