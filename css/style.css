@@ -152,7 +152,7 @@ a {
 }
 
 .frame07.slide-in {
-  animation: slide 0.7s ease-out forwards;
+  animation: slide 0.5s ease-out forwards;
 }
 
 @keyframes slide {
@@ -204,7 +204,7 @@ a {
   flex-wrap: wrap;
   position: absolute;
   left: 20px;
-  top: 45px;
+  top: 43px;
 }
 .word {
   opacity: 0;
@@ -226,7 +226,7 @@ a {
 
 .frame12 {
   position: absolute;
-  top: 103px;
+  top: 108px;
   right: 100%;
   opacity: 1;
 }
