@@ -38,39 +38,39 @@ window.addEventListener("load", function () {
 
   setTimeout(() => {
     frame02.style.transform = "translateX(-60px)";
-    frame02.style.transition = "transform 1s ease";
+    frame02.style.transition = "transform 0.6s ease";
   }, 1600);
 
   setTimeout(() => {
     frame04.style.opacity = 1;
     frame04.style.transition = "opacity 0.4s ease";
-  }, 1700);
+  }, 1900);
 
   setTimeout(() => {
     symbol01.classList.add("bounce");
     symbol02.classList.add("bounce");
     symbol03.classList.add("bounce");
-  }, 1800);
+  }, 2100);
 
   setTimeout(() => {
     frame05.style.opacity = 1;
     frame05.style.transform = "translateX(-122px)";
     frame05.style.transition = "transform 1s ease";
-  }, 2000);
+  }, 2200);
 
   setTimeout(() => {
     frame06.style.opacity = 1;
     frame06.style.transform = "translateX(-110px)";
     frame06.style.transition = "transform 1s ease";
-  }, 2300);
+  }, 2800);
 
   setTimeout(() => {
     frame07.classList.add("slide-in");
-  }, 3500);
+  }, 4000);
 
   setTimeout(() => {
     frame08.classList.add("slide-up");
-  }, 4300);
+  }, 4600);
 
   setTimeout(() => {
     frame09.style.opacity = 1;
